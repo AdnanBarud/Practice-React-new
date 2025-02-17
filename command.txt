@@ -1,0 +1,21 @@
+//for creating react app using vite
+npm create vite@latest
+
+//for installing react routing dom
+npm i react-router-dom
+
+//
+npx degit user/project#main my-project
+
+//for changing terminal address
+cd my-project
+
+//for installing react
+npm install
+
+//for running react using vite
+npm run dev
+
+//for installing redux toolkit
+npm install @reduxjs/toolkit
+npm install react-redux
