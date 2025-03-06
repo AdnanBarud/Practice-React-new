@@ -4,6 +4,27 @@ npm create vite@latest
 //for installing react routing dom
 npm i react-router-dom
 
+[
+{//for adding tailwind css to vite
+npm install tailwindcss @tailwindcss/vite
+
+
+//in vite.js(for tailwind css)
+import { defineConfig } from 'vite'
+//import tailwindcss from '@tailwindcss/vite'
+export default defineConfig({
+  plugins: [
+   // tailwindcss(),
+  ],
+})
+
+//in index.css(for tailwind css)
+@import "tailwindcss";
+]
+
+
+
+[
 //
 npx degit user/project#main my-project
 
@@ -15,7 +36,9 @@ npm install
 
 //for running react using vite
 npm run dev
+]
+
 
 //for installing redux toolkit
-npm install @reduxjs/toolkit
+npm install @reduxjs/toolkit react-redux
 npm install react-redux

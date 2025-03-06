@@ -13,3 +13,31 @@ git push -u origin master
 
 git remote add origin git@github.com:alexpchin/<reponame>.git
 git push -u origin master
+
+
+
+
+//Step 1: Initialize Git in Your Project
+git init
+
+//Step 2: Create a GitHub Repository
+1.Go to GitHub and log in.
+2.Click the + icon (top-right) → New repository.
+3.Enter a repository name, choose "Public" or "Private", and click Create repository.
+4.Copy the repository URL (it will be something like https://github.com/your-username/your-repo.git).
+
+// Add and Commit Files
+git add .
+
+//(Stages all files for commit)
+git commit -m "Initial commit"
+
+//Step 4: Link Your Local Repo to GitHub
+git remote add origin https://github.com/your-username/your-repo.git
+
+//To verify the remote URL:
+git remote -v
+
+//Step 5: Push Your Project to GitHub
+git branch -M main
+git push -u origin main
