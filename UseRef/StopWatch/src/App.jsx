@@ -14,7 +14,7 @@ function App() {
   }
   function stop(){
     clearInterval(num.current);
-    // num.current=null;
+    num.current=null;
 
   }
   function reset(){
